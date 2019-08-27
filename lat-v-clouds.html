@@ -55,38 +55,46 @@
             </ul>
         </div>
         </nav>
-        <!-- End of Navbar-->
-<div class="container">
-<section class="row">
-
-<div class="col-md-8">
-<article class="description-content">
-    <h1 class="description-header">Cloudiness</h1>
-    <hr class="description-hr"/>
-    <img src="resources/assets/images/cloud.png" alt="" class="img-responsive"/>
-    <p>There is no strong relationship between latitude and cloudiness, however, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.</p>
-</article>
-</div>
-
-<!-- Start of Visualizations imageNav Area -->
-<div class="col-md-4">
-<section id="imageNav-area">
-    <div class="imageNav-content">
-    <h2 class="imageNav-header">Visualizations</h2>
-    <hr />
-    <div id="images">
-        <a href="lat-v-temp.html"><img src="resources/assets/images/temp.png" alt="Latitude v. Temperature" class="imageNav-photo"></a>
-        <a href="lat-v-humid.html"><img src="resources/assets/images/humid.png" alt="Latitude v. Humidity" class="imageNav-photo"></a>
-        <a href="lat-v-clouds.html"><img src="resources/assets/images/cloud.png" alt="Latitude v. Cloudiness" class="imageNav-photo"></a>
-        <a href="lat-v-wind.html"><img src="resources/assets/images/wind.png" alt="Latitude v. Wind Speed" class="imageNav-photo"></a>
+<!-- End of Navbar-->
+<div class="container-fluid">
+<div class="row justify-content-start">
+    <div class="col-lg-7" id="land-box">
+    <article class="description-content">
+        <h1 class="description-header">Summary: Latitude vs. X</h1>
+        <hr class="description-hr"/>
+        <img src="resources/assets/images/temp.png" class="img-fluid" alt="" id="description-image"/>
+        <p>There is no strong relationship between latitude and cloudiness, however, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.</p>
+    </article>
     </div>
-    </div>
-</section>
-<!-- End of the Visualizations imageNav Area -->
 
-</div>
-</section>
-</div>
+    <div class="col-lg-4 col-sm-12 viz" id="land-box">
+    <h2>Visualizations </h2>
+    <hr>
+
+    <div class="row">
+            <div class="col-lg-6 col-sm-3" >      
+            <a href="lat-v-clouds.html">
+                <img   id = "row1" src="resources/assets/images/cloud.png" class="img-fluid" alt="cloudiness">  
+            </a>
+            </div>
+            <div class="col-lg-6 col-sm-3">      
+            <a href="lat-v-humid.html" >
+                <img  id = "row1" src="resources/assets/images/humid.png"  class="img-fluid" alt="Humidity">
+                </a>
+            </div>
+            <div class="col-lg-6 col-sm-3">
+            <a href="lat-v-temp.html" >
+                <img  id = "row2" src="resources/assets/images/temp.png" class="img-fluid" alt="Temperature">
+            </a>
+            </div>
+            <div class="col-lg-6 col-sm-3">
+            <a href="lat-v-wind.html" >
+                <img id = "row2"  src="resources/assets/images/wind.png" class="img-fluid" alt="WindSpeed">
+            </a>
+            </div>
+    </div>
+
+    </div>
 
 
 

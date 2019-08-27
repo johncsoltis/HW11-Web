@@ -3,17 +3,19 @@ body{
 }
 #land-box{
   background-color: white;
-  border: 1px solid grey;
+  margin: 2rem 0;
+  padding; 50px;
 }
 
-.container{
-  padding-top: 50px;
+#conti{
+  border: 1px solid lightgrey;
 }
 
 .viz{
   margin-left: 50px;
   background-color: white;
 }
+
 
 h2{
   text-align: center;
